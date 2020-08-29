@@ -11,7 +11,8 @@ import { catchError, tap, map } from "rxjs/operators";
 const httpOptions = {
   headers: new HttpHeaders({ "Content-Type": "application/json" })
 };
-const apiUrl = "http://localhost:3000/api/v1/products";
+// const apiUrl = "http://localhost:3000/api/v1/products";
+const apiUrl = "https://reqres.in/api/users";
 
 @Component({
   selector: "my-app",
